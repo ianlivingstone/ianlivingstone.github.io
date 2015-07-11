@@ -1,0 +1,2 @@
+FROM jekyll/stable:latest
+
