@@ -40,7 +40,7 @@ function run {
     eval "docker run --rm --volume=$ROOTPATH:/srv/jekyll \
             -p 4000:4000 \
             ${extra_args[*]} \
-            -it jekyll/stable:latest \
+            -it jekyll/pages:latest \
             $cmd"
 }
 
