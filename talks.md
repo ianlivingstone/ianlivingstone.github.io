@@ -7,7 +7,7 @@ permalink: /talks/
 I really enjoy giving talks at conferences and speaking to teams about
 engineering process, software development, the importance of culture, and
 innovation. I've spoken at several conferences and other settings, I've listed
-them below.
+some of them below.
 
 # Upcoming
 
