@@ -4,7 +4,7 @@ email: ianrlivingstone@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   hello -- thigns go here
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.ianlivingstone.ca" # the base hostname & protocol for your site
 twitter_username: ianlivingstone
 github_username:  ianliivngstone
 linkedin_username: irlivingstone
