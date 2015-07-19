@@ -14,8 +14,7 @@ Once you have docker setup, getting up and running is really simple. Just start
 a docker container using the following command:
 
 ```
-docker run --rm --volume=`pwd`:/srv/jekyll -p 4000:4000 -it \
-  jekyll/stable:latest /usr/local/bin/jekyll serve --watch --drafts --trace
+./_bin/blog dev
 ```
 
 This will start a docker container with the light-weight jekyll server running
