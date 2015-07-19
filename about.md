@@ -11,7 +11,7 @@ introduced to technology and programming by my much older brother. Since then,
 I’ve been incredibly passionate about technology, start ups, and how you can
 change the world for the better with the combination of the two.
 
-I enjoy giving [talks](/talks/) and [advising](/contact) on engineering process, technology, software
+I enjoy giving [talks](/talks/) and [advising](#contact-me) on engineering process, technology, software
 development, and how to make organizations and people more productive. Blogging
 is an outlet for me to write about my experiences and to write down my
 learnings (mostly for myself).
