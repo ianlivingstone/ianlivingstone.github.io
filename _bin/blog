@@ -19,16 +19,16 @@ fi
 
 function run {
     mode=$1
-    cmd="sudo -u jekyll /usr/local/bin/jekyll serve"
+
+    cmd="sudo -u jekyll JEKYLL_ENV=$mode /usr/local/bin/jekyll serve \
+        --config _config.yml,_config_dev.yml"
+
     case $mode in
-        "dev")
+        "development")
             echo "Serving in development mode"
-            extra_args+=(
-                "--env='JEKYLL_ENV=development'"
-            )
-            cmd="$cmd --watch --drafts --trace"
+            cmd="$cmd --watch --drafts --trace "
             ;;
-        "prod")
+        "production")
             echo "Serving in production mode"
             ;;
         *)
@@ -37,19 +37,22 @@ function run {
             ;;
     esac
 
-    eval "docker run --rm --volume=$ROOTPATH:/srv/jekyll \
+    cmdtoeval="docker run \
+            --rm --volume=$ROOTPATH:/srv/jekyll \
             -p 4000:4000 \
-            ${extra_args[*]} \
             -it jekyll/pages:latest \
             $cmd"
+
+    echo "cmd: $cmdtoeval"
+    eval "$cmdtoeval"
 }
 
 case $1 in
     "dev")
-        run "dev"
+        run "development"
         ;;
     "prod")
-        run "prod"
+        run "production"
         ;;
     "help")
         echo "Use the following commands to view the blog (docker required)"
