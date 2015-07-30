@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Docker Powered Development Environment for Your Go App"
-categories: docker development golang go
+description: "Docker is a great tool for making it simple to get a development environment up and running"
+tags: docker development golang go
 ---
 
 Docker Powered Development Environment for Your Go Web App Want to get started with Go and develop like the cool kids? I’m going to walk you through getting setup with a docker powered development environment that rebuilds as you make modifications locally. A complete example is available on GitHub for those that want to skip a-head.
