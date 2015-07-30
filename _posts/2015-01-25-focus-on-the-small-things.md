@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Focus on the Small Things"
+description: "Small focused iterations are fundamental to creating alignment and realizing innovation"
+image: assets/fireworks.jpg
 date: 2015-01-25 14:00:00
-categories: process vision
+tags: process vision
 ---
 
 ![A big win is inspiring]({{ site.url }}/assets/fireworks.jpg)
