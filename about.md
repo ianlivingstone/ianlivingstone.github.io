@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-<img class="portrait" src="{{ site.url }}/assets/about-me-portrait.jpg" align="left">
+<img class="portrait" src="{{ site.url }}/assets/about-me-portrait.jpg" align="right">
 
 I’ve been building products since the age of twelve while growing up in
 [Bridgewater, Nova

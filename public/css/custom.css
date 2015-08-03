@@ -26,3 +26,13 @@
   padding-left: 0;
   font-size: small;
 }
+
+/**
+ * About me portrait
+ */
+img .portraint {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: none;
+}
