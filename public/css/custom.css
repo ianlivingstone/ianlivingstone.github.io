@@ -16,3 +16,13 @@
 .icon > svg path {
   fill: #828282;
 }
+
+/*
+ * Social media buttons on post page
+ */
+.share-buttons {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: small;
+}
