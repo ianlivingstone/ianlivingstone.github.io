@@ -4,6 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
+
+<img class="portrait" src="{{ site.url }}/assets/about-me-portrait.jpg" align="left">
+
 I’ve been building products since the age of twelve while growing up in
 [Bridgewater, Nova
 Scotia](https://en.wikipedia.org/wiki/Bridgewater,_Nova_Scotia) and was
