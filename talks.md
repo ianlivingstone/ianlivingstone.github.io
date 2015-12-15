@@ -10,7 +10,7 @@ innovation. I've spoken at several conferences and other settings, I've listed
 some of them below.
 
 
-* [Full Stack Toronto 2015](https://fsto.co/) - ["Enabling Autonomy"]({{ site.url }}/2015/11/17/enabling-autonomy/) [Video](https://www.youtube.com/watch?v=yyEwGAuu_18)
+* [Full Stack Toronto 2015](https://fsto.co/) - ["Enabling Autonomy"]({{ site.url }}/2015/11/17/enabling-autonomy/) [[Video](https://www.youtube.com/watch?v=yyEwGAuu_18)]
 * [Dreamforce](http://dreamforce.com) - [Building a Concierge-like Experience into any Mobile Application](#)
 * [Volta Labs](http://www.voltaeffect.com/) - ["Iterate."](http://www.slideshare.net/ianlivingstone1/iterate-40515194)
 * [JQueryTO 2014](http://jqueryto.com/) - ["The Rise of BaaS"](http://www.slideshare.net/ianlivingstone1/go-instant-baas09)
